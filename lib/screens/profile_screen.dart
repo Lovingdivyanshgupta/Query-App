@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:query_app/constants/icon_repo.dart';
-import 'package:query_app/constants/measurement_repo.dart';
-import 'package:query_app/constants/sizedbox_constants.dart';
-import 'package:query_app/modal/color_modal.dart';
+
+import '../constant/icon_repo.dart';
+import '../constant/measurement_repo.dart';
+import '../constant/sizedbox_constants.dart';
+import '../modal/color_modal.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({Key? key, required this.profileName}) : super(key: key);

@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:query_app/modal/color_modal.dart';
 
-import '../../databaseManager/fcm_notification.dart';
-import '../../databaseManager/firebase_repo.dart';
-import '../multiselect_screen.dart';
+import '../../fcm/fcm_notification.dart';
+import '../../fcm/firebase_repo.dart';
+import '../../modal/color_modal.dart';
+import 'multiselect_screen.dart';
 
 class MyBottomSheet extends StatefulWidget {
   const MyBottomSheet({super.key, required this.categoryID});

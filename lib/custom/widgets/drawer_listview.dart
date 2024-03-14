@@ -6,6 +6,7 @@ import '../../constant/icon_repo.dart';
 import '../../key/key_showcase.dart';
 import '../../preferences/my_shared_preferences.dart';
 import '../../screens/login_screen.dart';
+import '../../screens/profile_screen.dart';
 
 class DrawerItemsListView extends StatefulWidget {
   const DrawerItemsListView({Key? key, required this.profileName})

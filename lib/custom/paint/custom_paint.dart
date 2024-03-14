@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'color_modal.dart';
+import '../../modal/color_modal.dart';
 
 class CurvePaint extends CustomPainter {
   final colorGradient = MyColorsModal();

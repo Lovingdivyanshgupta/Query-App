@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:query_app/constants/measurement_repo.dart';
-import 'package:query_app/modal/color_modal.dart';
+
+import '../../constant/measurement_repo.dart';
+import '../../modal/color_modal.dart';
 
 class LoadingDataView extends StatelessWidget {
   const LoadingDataView({Key? key, required this.text}) : super(key: key);
