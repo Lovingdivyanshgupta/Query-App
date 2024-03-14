@@ -8,6 +8,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:showcaseview/showcaseview.dart';
 import '../constant/measurement_repo.dart';
+import '../custom/paint/custom_paint.dart';
 import '../custom/widgets/loading_view.dart';
 import '../fcm/firebase_repo.dart';
 import '../fcm/notification_listen.dart';
