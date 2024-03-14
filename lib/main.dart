@@ -5,8 +5,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:query_app/modal/global_modal.dart' as globals;
-
+import 'package:code_query_app/modal/global_modal.dart' as globals;
 import 'modal/color_modal.dart';
 
 GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
