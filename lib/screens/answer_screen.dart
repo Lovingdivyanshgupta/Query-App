@@ -9,6 +9,7 @@ import '../constant/sizedbox_constants.dart';
 import '../custom/paint/custom_paint.dart';
 import '../fcm/firebase_repo.dart';
 import '../modal/color_modal.dart';
+import 'image_details.dart';
 
 class AnswerWindowScreen extends StatefulWidget {
   const AnswerWindowScreen({super.key, required this.answerData});
