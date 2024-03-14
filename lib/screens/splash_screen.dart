@@ -3,10 +3,10 @@ import 'dart:async';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:query_app/constants/sizedbox_constants.dart';
-import 'package:query_app/modal/global_modal.dart' as globals;
-import 'package:query_app/screens/category_screen.dart';
+import 'package:code_query_app/modal/global_modal.dart' as globals;
 
+import '../constant/sizedbox_constants.dart';
+import 'category_screen.dart';
 import 'login_screen.dart';
 
 class SplashScreenRepo extends StatefulWidget {
