@@ -1,13 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:query_app/constants/icon_repo.dart';
-import 'package:query_app/databaseManager/my_shared_preferences.dart';
-import 'package:query_app/screens/answer_screen.dart';
-import 'package:query_app/screens/query_answer.dart';
 import 'package:search_page/search_page.dart';
 
+import '../constant/icon_repo.dart';
 import '../modal/color_modal.dart';
+import '../preferences/my_shared_preferences.dart';
 import 'login_screen.dart';
 
 class MySearchScreen extends StatelessWidget {
