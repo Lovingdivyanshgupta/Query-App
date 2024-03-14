@@ -1,12 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:query_app/constants/icon_repo.dart';
-import 'package:query_app/databaseManager/my_shared_preferences.dart';
-import 'package:query_app/screens/login_screen.dart';
 import 'package:showcaseview/showcaseview.dart';
 
-import '../../keys/key_showcase.dart';
-import '../profile_screen.dart';
+import '../../constant/icon_repo.dart';
+import '../../key/key_showcase.dart';
+import '../../preferences/my_shared_preferences.dart';
+import '../../screens/login_screen.dart';
 
 class DrawerItemsListView extends StatefulWidget {
   const DrawerItemsListView({Key? key, required this.profileName})
