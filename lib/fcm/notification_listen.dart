@@ -5,6 +5,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import '../../main.dart';
 import '../preferences/my_shared_preferences.dart';
 import '../screens/login_screen.dart';
+import '../screens/query_answer.dart';
 
 class MyNotificationListen {
   void getNotificationListenData(BuildContext context) {

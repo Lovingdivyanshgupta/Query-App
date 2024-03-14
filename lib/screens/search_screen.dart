@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:code_query_app/screens/query_answer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:search_page/search_page.dart';
@@ -6,6 +7,7 @@ import 'package:search_page/search_page.dart';
 import '../constant/icon_repo.dart';
 import '../modal/color_modal.dart';
 import '../preferences/my_shared_preferences.dart';
+import 'answer_screen.dart';
 import 'login_screen.dart';
 
 class MySearchScreen extends StatelessWidget {
