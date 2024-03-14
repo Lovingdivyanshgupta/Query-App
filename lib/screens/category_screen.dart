@@ -7,12 +7,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:showcaseview/showcaseview.dart';
 import '../constant/measurement_repo.dart';
+import '../custom/widgets/loading_view.dart';
 import '../fcm/firebase_repo.dart';
 import '../fcm/notification_listen.dart';
 import '../key/key_showcase.dart';
 import '../main.dart';
 import '../modal/color_modal.dart';
 import '../preferences/my_shared_preferences.dart';
+import 'login_screen.dart';
 
 class CategoryScreen extends StatefulWidget {
   const CategoryScreen({Key? key}) : super(key: key);
