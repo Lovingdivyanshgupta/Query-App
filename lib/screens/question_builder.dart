@@ -1,18 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:query_app/constants/icon_repo.dart';
-import 'package:query_app/constants/measurement_repo.dart';
-import 'package:query_app/databaseManager/firebase_repo.dart';
-import 'package:query_app/keys/key_showcase.dart';
-import 'package:query_app/screens/search_screen.dart';
-import 'package:query_app/screens/tabbar_screen.dart';
-import 'package:query_app/screens/widget/bottomsheet_questions.dart';
-import 'package:query_app/screens/widget/loading_view.dart';
 import 'package:showcaseview/showcaseview.dart';
 
 import '../modal/color_modal.dart';
-import 'multiselect_screen.dart';
 
 class QuestionBank extends StatefulWidget {
   const QuestionBank(
