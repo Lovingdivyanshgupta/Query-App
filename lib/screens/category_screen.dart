@@ -6,8 +6,10 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:showcaseview/showcaseview.dart';
+import '../constant/measurement_repo.dart';
 import '../fcm/firebase_repo.dart';
 import '../fcm/notification_listen.dart';
+import '../key/key_showcase.dart';
 import '../main.dart';
 import '../modal/color_modal.dart';
 import '../preferences/my_shared_preferences.dart';
@@ -138,50 +140,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                               ],
                             ),
                           ),
-                          // FutureBuilder(
-                          //   future: MySharedPreferences.getUserDefault(
-                          //       'userLogin'),
-                          //   builder: (context, snapshot) {
-                          //     isLogin = snapshot.data ?? false;
-                          //     if (!isLogin) {
-                          //       return IconButton(
-                          //         onPressed: () async {
-                          //           Navigator.push(
-                          //             context,
-                          //             MaterialPageRoute(
-                          //               builder: (context) =>
-                          //                   const LoginPage(),
-                          //             ),
-                          //           );
-                          //           await MySharedPreferences.setUserDefault(
-                          //               'userLogin', true);
-                          //           //print('pref.isLogin : $isLogin');
-                          //         },
-                          //         icon: const Icon(
-                          //           Icons.login,
-                          //           size: 20,
-                          //         ),
-                          //       );
-                          //     }
-                          //     return IconButton(
-                          //       onPressed: () async {
-                          //         Navigator.push(
-                          //           context,
-                          //           MaterialPageRoute(
-                          //             builder: (context) => const LoginPage(),
-                          //           ),
-                          //         );
-                          //         await MySharedPreferences.setUserDefault(
-                          //             'userLogin', false);
-                          //         //print('pref.isLogin : $isLogin');
-                          //       },
-                          //       icon: const Icon(
-                          //         Icons.logout,
-                          //         size: 20,
-                          //       ),
-                          //     );
-                          //   },
-                          // ),
                         ],
                       ),
                     ),
