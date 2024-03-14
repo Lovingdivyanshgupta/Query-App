@@ -2,15 +2,15 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:query_app/constants/icon_repo.dart';
-import 'package:query_app/constants/measurement_repo.dart';
-import 'package:query_app/constants/sizedbox_constants.dart';
-import 'package:query_app/databaseManager/my_shared_preferences.dart';
-import 'package:query_app/screens/category_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../animation/fade_animation.dart';
+import '../constant/icon_repo.dart';
+import '../constant/measurement_repo.dart';
+import '../constant/sizedbox_constants.dart';
 import '../modal/color_modal.dart';
-import 'fade_animation.dart';
+import '../preferences/my_shared_preferences.dart';
+import 'category_screen.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
