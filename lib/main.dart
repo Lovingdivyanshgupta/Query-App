@@ -1,3 +1,4 @@
+import 'package:code_query_app/preferences/my_shared_preferences.dart';
 import 'package:code_query_app/screens/category_screen.dart';
 import 'package:code_query_app/screens/login_screen.dart';
 import 'package:code_query_app/screens/splash_screen.dart';
@@ -7,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:code_query_app/modal/global_modal.dart' as globals;
 import 'modal/color_modal.dart';
+import 'notification/fcm_notification.dart';
 
 GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 const AndroidNotificationChannel channel = AndroidNotificationChannel(
@@ -21,9 +23,6 @@ final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterL
 @pragma('vm:entry-point')
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
-  // print('A big message is showed up : ${message.data}');
-  // print('A big message is showed up : ${message.notification?.title}');
-  // print('A big message is showed up : ${message.notification?.body}');
 }
 
 void main() async {
