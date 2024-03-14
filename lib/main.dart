@@ -1,15 +1,11 @@
 import 'package:code_query_app/screens/category_screen.dart';
+import 'package:code_query_app/screens/login_screen.dart';
+import 'package:code_query_app/screens/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:query_app/databaseManager/fcm_notification.dart';
-import 'package:query_app/databaseManager/my_shared_preferences.dart';
-import 'package:query_app/modal/color_modal.dart';
 import 'package:query_app/modal/global_modal.dart' as globals;
-import 'package:query_app/screens/category_screen.dart';
-import 'package:query_app/screens/login_screen.dart';
-import 'package:query_app/screens/splash_screen.dart';
 
 GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 const AndroidNotificationChannel channel = AndroidNotificationChannel(
