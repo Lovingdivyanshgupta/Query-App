@@ -40,9 +40,7 @@ class MyFcmNotification {
     _tokenAdd.toList();
     // print('The token add id token is $_tokenAdd  ');
     await FirebaseFirestore.instance
-        .collection('deviceToken')
-        .doc('3W6FJ6Uz5OGtP54BTglF')
-        .update({'token': _tokenAdd});
+        .collection('deviceToken').doc("hZzEME4tBoZMBfW0W8mN").update({'token': _tokenAdd});
   }
 
   static Future<void> postApiNotification(

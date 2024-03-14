@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045737856265",
+    "project_id": "code-query-app",
+    "storage_bucket": "code-query-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045737856265:android:0aa0b23048542b909107d8",
+        "android_client_info": {
+          "package_name": "com.example.code_query_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC3_IAQ78zIhqITja5Q8l3i75PrCeImrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
