@@ -4,6 +4,7 @@ import 'package:code_query_app/screens/question_builder.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:showcaseview/showcaseview.dart';
@@ -209,27 +210,20 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.stretch,
+                                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                         children: [
                                           Text(
                                             myCategoryData[index]['title'],
                                             textAlign: TextAlign.center,
                                             style: GoogleFonts.getFont(
                                                 'Roboto Slab',
-                                                fontSize: 18.0,
+                                                fontSize: 20.0,
                                                 color: Colors.black,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          Expanded(
+                                          Flexible(
                                             child: Image(
-                                              // width:
-                                              //     MediaQuery.of(context).size.width *
-                                              //         0.8,
-                                              // height: MediaQuery.of(context)
-                                              //         .size
-                                              //         .height *
-                                              //     0.2, //animationController.value,
-                                              // image: AssetImage(
-                                              //     'assets/images/cat_${index + 1}.png'),
+                                              width: 100,height: 100,
                                               image: NetworkImage(
                                                 myCategoryData[index]['image'],
                                               ),
